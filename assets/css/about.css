@@ -1,0 +1,44 @@
+:root {
+  --hf: #68a691;
+  --box: #bfd3c1;
+  --bg: #ffe5d4;
+  --txt: #efc7c2;
+}
+
+h1 {
+  font-family: optima;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: optima;
+  font-size: 20px;
+}
+
+main {
+  background-color: var(--box);
+  text-align: center;
+  height: 75%;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+main img {
+  border-radius: 15px;
+}
+
+footer {
+  background-color: var(--hf);
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-family: optima;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: var(--txt);
+}
